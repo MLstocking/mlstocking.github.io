@@ -1,11 +1,38 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Introduction
+permalink: /introduction/
 ---
+### 1. 프로젝트 배경
+> 경제 위기로 인해 투자에 대한 관심이 높아짐에 따라, 개인 투자자의 거래가 크게 증가하며 방대한 데이터가 축적되고 있습니다. 따라서 증권 데이터 분석은 다양한 데이터 간의 인과관계를 분석해보며 금융 시장에 대한 이해도를 높일 수 있는 기회가 될 것입니다.
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+### 2. 프로젝트 요약 
+> 머신러닝 알고리즘을 활용한 주가 예측 및 증권 데이터 분석 프로젝트 입니다. 기존에 회자된 시계열 예측 모델을 이용한 주가 예측 방법과 비교해 아래와 같은 차별점을 가지고 있습니다.
+- 강화학습을 알고리즘을 사용해 주식 매매 타이밍과 수익을 계산하였습니다.
+- 클라우드 서버와 데이터베이스를 활용하여 데이터 ETL 작업을 자동화했습니다.
+- 협업툴(Jira, Confluence, Github)을 활용하여 보다 체계적으로 프로젝트를 진행했습니다.
 
-You can find the source code for this Jekyll theme at: [github.com/ashutosh2k12/hcz-jekyll-blog](https://github.com/ashutosh2k12/hcz-jekyll-blog)
+### 3. 프로젝트 상세
+>
+개발 환경 및 라이브러리
+- MS Azure VM(Ubuntu 18.04)
+- MS Cosmos DB
+- Apache Airflow
+- Python
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+>데이터 분석
+- Features
+    - 삼성전자 주가 : 시가, 종가, 고가, 저가, 거래량
+    - 한국 채권 10Y : 종가
+    - 지표 : PER, PBR, ROE
+    - 원자재 선물 : 옥수수, 금
+- 모델 알고리즘
+    - 강화학습
+    
+>데이터 엔지니어링
+- 서버 환경 셋팅
+- 데이터 수집 및 적재
+- 워크플로우 설계
+
+>모델 예측 리포팅
+- Github Page에 모델 예측 결과 리포트 배포
