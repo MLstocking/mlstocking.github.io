@@ -7,7 +7,7 @@ categories: daily_report
 
 ## 모델 예측 결과
 예상 수익금 : 14,420,830 원 
-<center><img src="https://github.com/favicon.ico" width="400" height="400" ></center>
+<center><img src="/assets/20201029_225006_epoch_summary_1.png" width="400" height="400" ></center>
 
 >
 - ENV
@@ -28,6 +28,6 @@ categories: daily_report
     - 에이전트의 행동에 따른 자본금을 라인차트로 시각화
     - 초기 자본금은 가로선으로 표기
 
-![예측 모델 설명][model_description]
+[모델에 대한 설명 자세한 내용은 여기를 참조하세요.][model_description]
 
-[model_description]:      http://https://mlstocking.github.io/model_description/2020/10/26/model_description.html
+[model_description]:http://https://mlstocking.github.io/model_description/2020/10/26/model_description.html
